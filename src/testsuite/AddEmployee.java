@@ -12,6 +12,7 @@ public class AddEmployee  extends BaseClass{
 		//xpath of PIM
 		driver.findElement(By.xpath("//*[@id='menu_pim_viewPimModule']/b")).click();
 		driver.findElement(By.id("menu_pim_addEmployee")).click();
+System.out.println("New Line");
 		driver.findElement(By.id("firstName")).sendKeys("Sai");
 		driver.findElement(By.id("middleName")).sendKeys("Krishna");
 		driver.findElement(By.id("lastName")).sendKeys("g");
